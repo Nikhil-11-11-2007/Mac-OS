@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/300/200?random=1",
+    "title": "Todo App",
+    "description": "A simple todo application built using JavaScript to manage daily tasks efficiently.",
+    "tags": ["JavaScript", "HTML", "CSS", "API", "Node.js"],
+    "repoLink": "https://github.com/username/todo-app",
+    "demoLink": "https://username.github.io/todo-app"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/300/200?random=2",
+    "title": "Weather App",
+    "description": "Weather forecasting app using OpenWeather API with real-time data.",
+    "tags": ["JavaScript", "API", "Bootstrap", "REST API", "react"],
+    "repoLink": "https://github.com/username/weather-app",
+    "demoLink": "https://weather-app-demo.netlify.app"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/300/200?random=3",
+    "title": "Portfolio Website",
+    "description": "Personal portfolio website to showcase projects and skills.",
+    "tags": ["HTML", "CSS", "Responsive", "Chart.js", "SCSS"],
+    "repoLink": "https://github.com/username/portfolio",
+    "demoLink": "https://username-portfolio.netlify.app"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/300/200?random=4",
+    "title": "Notes App",
+    "description": "Notes application with CRUD operations using REST APIs.",
+    "tags": ["JavaScript", "REST API", "Node.js"],
+    "repoLink": "https://github.com/username/notes-app",
+    "demoLink": "https://notes-app-demo.netlify.app"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/300/200?random=5",
+    "title": "Expense Tracker",
+    "description": "Track income and expenses with charts and summaries.",
+    "tags": ["JavaScript", "Chart.js", "Finance", "GSAP", "Tailwind CSS"],
+    "repoLink": "https://github.com/username/expense-tracker",
+    "demoLink": "https://expense-tracker-demo.netlify.app"
+  }
+]

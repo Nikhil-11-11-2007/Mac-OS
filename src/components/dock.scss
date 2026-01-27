@@ -12,7 +12,7 @@
     padding-block: .5rem;
 
     .icon {
-        width: 2.9rem;
+        width: calc(1.1vw + 1.8rem);
         padding: .2rem;
         display: flex;
         align-items: center;
@@ -20,6 +20,10 @@
         aspect-ratio: 1/1;
         border-radius: .6rem;
         transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .icon img{
+        width: calc(.9rem + 1.1vw);
     }
 
     .github,.cli{
