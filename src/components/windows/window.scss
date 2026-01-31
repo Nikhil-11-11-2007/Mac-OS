@@ -41,4 +41,13 @@
     .main-content{
         height: 100%;
     }
+
+    *::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    *::-webkit-scrollbar-thumb{
+        background-color: #fff;
+        border-radius: 5px;
+    }
 }

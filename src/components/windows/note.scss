@@ -1,0 +1,15 @@
+.note-window {
+    padding: 1vw 2vw;
+    padding-bottom: 5vw;
+    height: 100%;
+    overflow: auto;
+    font-size: .86rem;
+
+    pre{
+        background-color: transparent !important;
+    }
+
+    pre::-webkit-scrollbar {
+        display: none;
+    }
+}

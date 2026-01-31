@@ -12,14 +12,17 @@
         flex-grow: 1;
         flex-basis: 16rem;
         max-width: 20rem;
-        max-width: 20rem;
-        background-color: #4f4d4d;
+        min-width: 17rem;
+        background: linear-gradient( to top, #33333399,#dfdadab8);
         padding: .5rem .6rem;
-        border-radius: .4rem;
+        padding-bottom: 1rem;
+        cursor: auto;
+        border-radius: 1vw;
         color: rgb(230, 229, 229);
         display: flex;
+        justify-content: space-evenly;
         flex-direction: column;
-        gap: .9vw;
+        gap: 1.5vw;
 
         img{
             width: 100%;
@@ -42,7 +45,7 @@
             gap: .5vw;
 
             .tag{
-                background-color: #5c6659;
+                background-color: #515e4ca8;
                 width: fit-content;
                 padding: .5vw 1vw;
                 border-radius: .4vw;
@@ -56,6 +59,14 @@
             a{
                 color: whitesmoke;
                 text-decoration: none;
+                padding: .2vw 1vw;
+                border-radius: 4px;
+                background-color: rgba(79, 70, 66, 0.875);
+                transition: all ease .3s;
+            }
+
+            a:hover{
+                scale: 1.1;
             }
         }
     }

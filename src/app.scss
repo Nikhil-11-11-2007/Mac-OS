@@ -7,10 +7,10 @@
 html,body,#root{
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 
 main{
+    overflow: hidden;
     min-height: 100vh;
     position: relative;
     width: 100%;

@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/300/200?random=1",
-    "title": "Todo App",
-    "description": "A simple todo application built using JavaScript to manage daily tasks efficiently.",
-    "tags": ["JavaScript", "HTML", "CSS", "API", "Node.js"],
-    "repoLink": "https://github.com/username/todo-app",
-    "demoLink": "https://username.github.io/todo-app"
+    "image": "/ProjectImages/Productivity Dashboard.jpeg",
+    "title": "Productivity DashBoard",
+    "description": "A modern productivity dashboard that helps manage tasks, plan your day, stay focused with Pomodoro, and track daily goals—all in one place.",
+    "tags": ["JavaScript", "HTML", "CSS", "API"],
+    "repoLink": "https://github.com/Nikhil-11-11-2007/Productivity-DashBoard",
+    "demoLink": "https://nikhil-11-11-2007.github.io/Productivity-DashBoard/"
   },
   {
     "id": 2,

@@ -1,28 +1,28 @@
 import { Rnd } from "react-rnd"
 import "./window.scss"
-const MacWindow = ({children}) => {
-  return (
-    <Rnd default={{
-        height:"40vh",
-        width:"40vw",
-        x:300,
-        y:200
-    }}>
-        <div className="window">
-            <div className="nav">
-                <div className="dots">
-                    <div className="dot red"></div>
-                    <div className="dot yellow"></div>
-                    <div className="dot green"></div>
+const MacWindow = ({ children }) => {
+    return (
+        <Rnd default={{
+            height: "50vh",
+            width: "42vw",
+            x: 300,
+            y: 200
+        }}>
+            <div className="window">
+                <div className="nav">
+                    <div className="dots">
+                        <div className="dot red"></div>
+                        <div className="dot yellow"></div>
+                        <div className="dot green"></div>
+                    </div>
+                    <div className="title"><p>nikhilgupta - zsh</p></div>
                 </div>
-                <div className="title"><p>nikhilgupta - zsh</p></div>
+                <div className="main-content">
+                    {children}
+                </div>
             </div>
-            <div className="main-content">
-                {children}
-            </div>
-        </div>
-    </Rnd>
-  )
+        </Rnd>
+    )
 }
 
 export default MacWindow
