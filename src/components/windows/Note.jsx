@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import Markdown from "react-markdown"
 import MacWindow from "./MacWindow"
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { atelierDuneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
